@@ -3,9 +3,9 @@ Passo a passo para criar uma rest api em nodejs usando express e sem utilizar ba
 
 ### Contexto
 A API tem como função facilitar o gerenciamento de horários de uma clínica, usará os seguintes métodos:
-Criar (Cadastrar regras de horários para atendimento)
-Listar (Listar regras e horários disponíveis dado um intervalo de data)
-Deletar (Apagar regras)
+Criar (Cadastrar regras de horários para atendimento)    
+Listar (Listar regras e horários disponíveis dado um intervalo de data)    
+Deletar (Apagar regras)    
 
 
 ### Instalando os requisitos
@@ -73,7 +73,6 @@ Nossa estrutura de arquivos além dos arquivos padrões estará da seguinte form
 └── routes
     ├── index.routes.js
     └── post.routes.js
-    └── date.routes.js
 ```
 #### data
 Os dados em json vão seguir o seguinte padrão, podendo ter o campo dia ou não dependendo do tipo:
