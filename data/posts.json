@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "tipo": "data específica",
+    "dia": "2018-06-15",
+    "intervalo": [
+      {
+        "de": "14:30",
+        "até": "15:00"
+      },
+      {
+        "de": "15:10",
+        "até": "15:30"
+      }
+    ],
+    "createdAt": "Mon Aug 27 2018 15:16:17 GMT+0200 (CEST)"
+  },
+  {
+    "id": "2",
+    "tipo": "diariamente",
+    "intervalo": [
+      {
+        "de": "9:30",
+        "até": "10:10"
+      }
+    ],
+    "createdAt": "Mon Aug 27 2018 15:16:17 GMT+0200 (CEST)"
+  },
+  {
+    "id": "3",
+    "tipo": "semanalmente",
+    "dia": [
+      "segunda",
+      "quarta"
+    ],
+    "intervalo": [
+      {
+        "de": "14:00",
+        "até": "14:00"
+      }
+    ],
+    "createdAt": "Mon Aug 27 2018 15:16:17 GMT+0200 (CEST)"
+  },
+  {
+    "id": "31",
+    "createdAt": "Sat May 04 2019 17:07:02 GMT-0300 (Brasilia Standard Time)",
+    "tipo": "test again",
+    "intervalo": [
+      {
+        "de": "14:00",
+        "até": "14:00"
+      }
+    ]
+  },
+  {
+    "id": "311",
+    "createdAt": "Sat May 04 2019 20:39:08 GMT-0300 (Brasilia Standard Time)",
+    "tipo": "test again",
+    "intervalo": [
+      {
+        "de": "14:00",
+        "até": "15:00"
+      }
+    ]
+  }
+]
