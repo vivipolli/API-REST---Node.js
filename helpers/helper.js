@@ -25,7 +25,8 @@ function mustBeInArray(array, id) {
 }
 function isBetweenDate(array, start, end){
     return new Promise((resolve, reject) => {
-        const pertain =  array.find(r => moment(r.dia).isBetween(start, end, 'months','day'))
+        const pertain =  array.filter(
+          r => moment(r.dia).isBetween(start, end, 'months','day') || r.tipo == "diariamente")
         if (!pertain) {
             reject({
                 message: 'Não há data disponível nesse intervalo',
